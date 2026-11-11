@@ -16,6 +16,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="Program dla szkoły sportowej, sekcji lub studia: zapisy na zajęcia, karnety i płatności, grafik trenerów i lista obecności w jednym miejscu.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -75,38 +79,68 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <!-- Google Tag Manager (noscript): по заказу «Смоков» (СМ-09) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Zapisy Sekcji</a></div>
-  <nav class="top"><a href="#co" data-ev="click_nav_co">Co dostajesz</a><a href="price.html" data-ev="click_nav_cena">Cena</a><a href="#przyklad" data-ev="click_nav_przyklad">Przykład</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Zapisy Sekcji</a>
+  <nav><a href="#co" data-ev="click_nav_co">Co dostajesz</a><a href="price.html" data-ev="click_nav_cena">Cena</a><a href="#przyklad" data-ev="click_nav_przyklad">Przykład</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Zapisy, karnety i grafik zajęć dla szkoły sportowej — bez arkuszy i wiadomości na komunikatorze</h1>
-    <p class="sub">Dla szkół sportowych, sekcji i studiów: uczestnicy lub rodzice zapisują się na zajęcia sami, karnety i płatności są pilnowane automatycznie, a trenerzy widzą grafik i listę obecności na telefonie.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">Tego potrzebuję</a>
-    <p class="cta-note">Wczesny dostęp · Na tej stronie nie pobieramy jeszcze płatności</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> Dla szkół sportowych, sekcji i studiów</p>
+      <h1 class="rise" style="--i:1" data-len="long">Zapisy, karnety i grafik zajęć dla szkoły sportowej&nbsp;<span class="soft">— bez arkuszy i wiadomości na komunikatorze</span></h1>
+      <p class="rise" style="--i:2">Dla szkół sportowych, sekcji i studiów: uczestnicy lub rodzice zapisują się na zajęcia sami, karnety i płatności są pilnowane automatycznie, a trenerzy widzą grafik i listę obecności na telefonie.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">Tego potrzebuję</a>
+      <p class="meta rise" style="--i:4">Wczesny dostęp · Na tej stronie nie pobieramy jeszcze płatności</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><text x="120" y="150" font-size="40" fill="#0a1524" font-weight="600">Zapisy</text><line x1="100" y1="196" x2="1100" y2="196" stroke="#dde2ea" stroke-width="3" fill="none" /><rect x="120" y="250" width="44" height="44" fill="#12397a" rx="8" /><text x="190" y="282" font-size="32" fill="#0a1524">karnety</text><rect x="120" y="380" width="44" height="44" fill="#dfe8f7" rx="8" /><text x="190" y="412" font-size="32" fill="#0a1524">grafik</text><rect x="120" y="510" width="44" height="44" fill="#dfe8f7" rx="8" /><text x="190" y="542" font-size="32" fill="#0a1524">obecności</text><rect x="720" y="250" width="360" height="420" fill="#dfe8f7" rx="20" /><text x="750" y="318" font-size="34" fill="#0a1524" font-weight="600">trenerzy</text><rect x="760" y="420" width="50" height="200" fill="#12397a" rx="8" /><rect x="850" y="490" width="50" height="130" fill="#ffffff" rx="8" /><rect x="940" y="450" width="50" height="170" fill="#b9c3d2" rx="8" /></svg></figure>
+    <dl class="facts">
+      <div><dt>Dla</dt><dd>Szkół sportowych</dd></div>
+      <div><dt>Zapisy</dt><dd>Zapisują się na zajęcia</dd></div>
+      <div><dt>Grafik</dt><dd>Grafik i listę</dd></div>
+      <div><dt>Dostęp</dt><dd>Wczesny dostęp</dd></div>
+    </dl>
+  </section>
 
   <section id="co" data-view="features_view">
-    <h2>Co dostajesz</h2>
-    <div class="grid">
-      <div class="card"><b>Zapisy online</b><span>Uczestnik lub rodzic zapisuje się na zajęcia lub grupę i dostaje potwierdzenie.</span><br><a class="btn" href="price.html" data-ev="feature_zapisy">Tego potrzebuję</a></div>
-      <div class="card"><b>Karnety i płatności</b><span>Karnety, opłaty miesięczne i przypomnienia o zaległych płatnościach.</span><br><a class="btn" href="price.html" data-ev="feature_karnety">Tego potrzebuję</a></div>
-      <div class="card"><b>Grafik i sale</b><span>Grafik zajęć, trenerów i sal; zmiany od razu widoczne dla uczestników.</span><br><a class="btn" href="price.html" data-ev="feature_grafik">Tego potrzebuję</a></div>
-      <div class="card"><b>Lista obecności</b><span>Trener zaznacza obecność na telefonie; karnet rozlicza się sam.</span><br><a class="btn" href="price.html" data-ev="feature_obecnosc">Tego potrzebuję</a></div>
+    <div class="stack"><h2>Co dostajesz</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="60" y="50" width="680" height="500" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="100" y="124" font-size="36" fill="#0a1524" font-weight="600">Zapisy online</text><rect x="110" y="190" width="44" height="44" fill="#dfe8f7" rx="8" /><polyline points="120,212 128,222 144,204" fill="none" stroke="#12397a" stroke-width="4" /><rect x="180" y="200" width="300" height="22" fill="#dde2ea" rx="8" /><rect x="110" y="270" width="44" height="44" fill="#dfe8f7" rx="8" /><polyline points="120,292 128,302 144,284" fill="none" stroke="#12397a" stroke-width="4" /><rect x="180" y="280" width="240" height="22" fill="#b9c3d2" rx="8" /><rect x="110" y="350" width="44" height="44" fill="#dfe8f7" rx="8" /><rect x="180" y="360" width="340" height="22" fill="#dde2ea" rx="8" /><rect x="110" y="430" width="44" height="44" fill="#dfe8f7" rx="8" /><rect x="180" y="440" width="200" height="22" fill="#b9c3d2" rx="8" /></svg></div>
+        <h3>Zapisy online</h3><p>Uczestnik lub rodzic zapisuje się na zajęcia lub grupę i dostaje potwierdzenie.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_zapisy">Tego potrzebuję</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="60" y="50" width="680" height="500" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="100" y="124" font-size="36" fill="#0a1524" font-weight="600">Karnety</text><rect x="120" y="200" width="420" height="28" fill="#dfe8f7" rx="8" /><rect x="120" y="270" width="300" height="28" fill="#dde2ea" rx="8" /><rect x="120" y="340" width="460" height="28" fill="#dde2ea" rx="8" /><rect x="120" y="410" width="240" height="28" fill="#dde2ea" rx="8" /></svg></div>
+        <h3>Karnety i płatności</h3><p>Karnety, opłaty miesięczne i przypomnienia o zaległych płatnościach.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_karnety">Tego potrzebuję</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="60" y="50" width="680" height="500" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="100" y="124" font-size="36" fill="#0a1524" font-weight="600">Grafik</text><rect x="120" y="200" width="100" height="70" fill="#ffffff" rx="10" stroke="#dde2ea" stroke-width="3" /><rect x="250" y="200" width="100" height="70" fill="#ffffff" rx="10" stroke="#dde2ea" stroke-width="3" /><rect x="380" y="200" width="100" height="70" fill="#ffffff" rx="10" stroke="#dde2ea" stroke-width="3" /><rect x="510" y="200" width="100" height="70" fill="#ffffff" rx="10" stroke="#dde2ea" stroke-width="3" /><rect x="120" y="300" width="100" height="70" fill="#ffffff" rx="10" stroke="#dde2ea" stroke-width="3" /><rect x="250" y="300" width="100" height="70" fill="#ffffff" rx="10" stroke="#dde2ea" stroke-width="3" /><rect x="380" y="300" width="100" height="70" fill="#12397a" rx="10" /><rect x="510" y="300" width="100" height="70" fill="#ffffff" rx="10" stroke="#dde2ea" stroke-width="3" /><rect x="120" y="400" width="100" height="70" fill="#ffffff" rx="10" stroke="#dde2ea" stroke-width="3" /><rect x="250" y="400" width="100" height="70" fill="#ffffff" rx="10" stroke="#dde2ea" stroke-width="3" /><rect x="380" y="400" width="100" height="70" fill="#ffffff" rx="10" stroke="#dde2ea" stroke-width="3" /><rect x="510" y="400" width="100" height="70" fill="#ffffff" rx="10" stroke="#dde2ea" stroke-width="3" /></svg></div>
+        <h3>Grafik i sale</h3><p>Grafik zajęć, trenerów i sal; zmiany od razu widoczne dla uczestników.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_grafik">Tego potrzebuję</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="60" y="50" width="680" height="500" fill="#ffffff" rx="22" stroke="#dde2ea" stroke-width="3" /><text x="100" y="124" font-size="36" fill="#0a1524" font-weight="600">obecności</text><rect x="120" y="200" width="360" height="26" fill="#dde2ea" rx="8" /><rect x="120" y="270" width="280" height="26" fill="#dde2ea" rx="8" /><rect x="120" y="340" width="400" height="26" fill="#dde2ea" rx="8" /><circle cx="560" cy="250" r="46" fill="#dfe8f7" /><polyline points="536,250 552,268 590,226" fill="none" stroke="#12397a" stroke-width="6" /></svg></div>
+        <h3>Lista obecności</h3><p>Trener zaznacza obecność na telefonie; karnet rozlicza się sam.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_obecnosc">Tego potrzebuję</a>
+      </article>
     </div>
   </section>
 
-  <section id="przyklad" data-view="example_view">
-    <h2>Przykład (dane fikcyjne)</h2>
-    <p class="fine">Szkoła judo, 4 grupy dzieci i 1 grupa dorosłych, 112 uczestników. Wrzesień: rodzice zapisali dzieci online, 96 karnetów opłaconych, 16 przypomnień wysłanych. Trener zaznacza obecność na macie, grupa sobotnia przeniesiona do innej sali — wszyscy dostali powiadomienie.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Wybierz pakiet</a>
+  <section id="przyklad" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Przykład</h2>
+      <p>Szkoła judo, 4 grupy dzieci i 1 grupa dorosłych, 112 uczestników. Wrzesień: rodzice zapisali dzieci online, 96 karnetów opłaconych, 16 przypomnień wysłanych. Trener zaznacza obecność na macie, grupa sobotnia przeniesiona do innej sali — wszyscy dostali powiadomienie.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Wybierz pakiet</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="200" y1="150" x2="1000" y2="150" stroke="#dde2ea" stroke-width="6" fill="none" /><circle cx="240" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="240" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">judo</text><circle cx="600" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="600" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">Wrzesień</text><circle cx="960" cy="150" r="22" fill="#12397a" /><text x="960" y="230" font-size="32" fill="#0a1524" font-weight="600" text-anchor="middle">karnetów</text><rect x="120" y="320" width="960" height="400" fill="#ffffff" rx="24" stroke="#dde2ea" stroke-width="3" /><text x="170" y="410" font-size="36" fill="#0a1524" font-weight="600">obecność</text><rect x="170" y="470" width="64" height="64" fill="#12397a" rx="12" /><rect x="270" y="470" width="64" height="64" fill="#dfe8f7" rx="12" /><rect x="370" y="470" width="64" height="64" fill="#dde2ea" rx="12" /><rect x="470" y="470" width="64" height="64" fill="#b9c3d2" rx="12" /><text x="170" y="640" font-size="32" fill="#566174">powiadomienie</text></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>Jak to działa</h2>
-    <p>W Polsce działa wiele szkół sportowych, sekcji i studiów prowadzących zajęcia. W wielu z nich zapisy prowadzi się w arkuszu, płatności sprawdza się w wyciągu bankowym, a zmiany w grafiku ogłasza w grupie na komunikatorze. Przy kilkudziesięciu uczestnikach to jeszcze działa, przy stu i więcej zajmuje wieczory.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>Jak to działa</h2></div>
+    <div class="stack">
+      <p>W Polsce działa wiele szkół sportowych, sekcji i studiów prowadzących zajęcia. W wielu z nich zapisy prowadzi się w arkuszu, płatności sprawdza się w wyciągu bankowym, a zmiany w grafiku ogłasza w grupie na komunikatorze. Przy kilkudziesięciu uczestnikach to jeszcze działa, przy stu i więcej zajmuje wieczory.</p>
     <p>Zapisy Sekcji zbiera to w jednym miejscu. Szkoła ustawia grupy, zajęcia, trenerów i sale oraz rodzaje karnetów: miesięczne, na określoną liczbę wejść albo na semestr. Każda grupa ma limit miejsc, więc nikt nie zapisze się na zajęcia, na których nie ma już miejsca.</p>
     <p>Uczestnicy lub rodzice zapisują się sami przez stronę szkoły albo link w wiadomości. Wybierają grupę lub zajęcia, podają dane i zgody, dostają potwierdzenie i informację, jak opłacić karnet. Jeśli grupa jest pełna, mogą zapisać się na listę rezerwową i dostać powiadomienie, gdy zwolni się miejsce.</p>
     <p>Płatności są widoczne przy każdym uczestniku: opłacony karnet, zaległość albo zbliżający się termin. Przypomnienia wysyłają się automatycznie, więc nie trzeba pisać do każdego rodzica osobno. Na koniec miesiąca szkoła widzi zestawienie wpływów i zaległości według grup.</p>
@@ -117,31 +151,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>Dla szkół z kilkoma lokalizacjami program pokazuje grafik każdej sali i trenera osobno, a uczestnik widzi tylko swoje zajęcia. Nowy trener dostaje dostęp do swoich grup w kilka minut, bez przekazywania arkuszy i haseł.</p>
     <p>Program obsługuje także zajęcia jednorazowe, obozy i turnieje: zapisy z limitem miejsc, opłata za wydarzenie i lista uczestników dla organizatora.</p>
     <p>Program jest przeznaczony dla szkół sportowych, sekcji, klubów i studiów ruchu. Ceny zajęć, regulamin i zasady zapisów ustala szkoła; program tylko je stosuje.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Pytania i odpowiedzi</h2>
-    <h3>Czy rodzice mogą zapisywać dzieci sami?</h3>
-    <p>Tak, przez stronę szkoły lub link, z potwierdzeniem i informacją o płatności.</p>
-    <h3>Jakie karnety obsługuje program?</h3>
-    <p>Miesięczne, na liczbę wejść i semestralne; zasady ustala szkoła.</p>
-    <h3>Czy trener sprawdza obecność na telefonie?</h3>
-    <p>Tak, a karnet na wejścia rozlicza się automatycznie.</p>
-    <h3>Czy mogę przenieść listę uczestników?</h3>
-    <p>Tak, z arkusza; uczestnicy sami uzupełniają brakujące dane.</p>
-    <h3>Czy mogę już korzystać z programu?</h3>
-    <p>Jeszcze nie. Usługa jest w przygotowaniu i sprawdzamy, czy szkoły jej potrzebują.</p>
+    <div class="stack"><h2>Pytania i odpowiedzi</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Czy rodzice mogą zapisywać dzieci sami?</h3><p>Tak, przez stronę szkoły lub link, z potwierdzeniem i informacją o płatności.</p></div>
+      <div class="split flip"><h3>Jakie karnety obsługuje program?</h3><p>Miesięczne, na liczbę wejść i semestralne; zasady ustala szkoła.</p></div>
+      <div class="split flip"><h3>Czy trener sprawdza obecność na telefonie?</h3><p>Tak, a karnet na wejścia rozlicza się automatycznie.</p></div>
+      <div class="split flip"><h3>Czy mogę przenieść listę uczestników?</h3><p>Tak, z arkusza; uczestnicy sami uzupełniają brakujące dane.</p></div>
+      <div class="split flip"><h3>Czy mogę już korzystać z programu?</h3><p>Jeszcze nie. Usługa jest w przygotowaniu i sprawdzamy, czy szkoły jej potrzebują.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Dodaj pierwszą grupę</h2>
-    <p><label>Ilu uczestników ma szkoła<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— wybierz —</option><option>Do 30</option><option>31–100</option><option>101–300</option><option>Więcej niż 300</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Dodaj grupę</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Dodaj pierwszą grupę</h2>
+    </div>
+    <div class="tile stack">
+      <label>Ilu uczestników ma szkoła<select data-ev-focus="form_start"><option value="">— wybierz —</option><option>Do 30</option><option>31–100</option><option>101–300</option><option>Więcej niż 300</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Dodaj grupę</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Zapisy Sekcji</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Polityka prywatności</a></p>
-  <p class="muted">Program do zapisów i rozliczeń zajęć. Ceny, regulamin i zasady zapisów ustala szkoła.</p>
+  <p>Program do zapisów i rozliczeń zajęć. Ceny, regulamin i zasady zapisów ustala szkoła.</p>
 </div></footer>
 
 </body>
